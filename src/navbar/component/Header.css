@@ -1,0 +1,74 @@
+.topbar {
+  /* width: 100%; */
+  /* flex: 4; */
+  height: 90px;
+  background: #f5f5f5;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.topbarWrapper {
+  display: flex;
+  height: 100%;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-bottom: 0.5px solid #BDBDBD
+}
+.topbarWrapper h6{
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+/* .logo{
+    padding-bottom: 70px;
+  } */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .topbarIconcontainer{
+    margin-right: 20px;
+  }
+  .avatarContainer{
+    margin-right: 0;
+  }
+ 
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+  .pro-sidebar{
+    min-width: 80px !important;
+  }
+  .main-content{
+    margin-left: 80px;
+  }
+  .avatarName {
+    display: none;
+  }
+  .collaps-profile{
+    display: block;
+  }
+ }
+
+/* // Medium /devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  .pro-sidebar{
+    min-width: 80px !important;
+  }
+  .main-content{
+    margin-left: 80px;
+  }
+  .collaps-profile{
+    display: none;
+  }
+  .topRight{
+    display: none;
+  }
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
