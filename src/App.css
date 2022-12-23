@@ -1,1 +1,7 @@
+@import url('./assets/css/root.css');
 
+.pageContainer {
+	background: var(--gray_1);
+	width: 100vw;
+	height: 100vh;
+}

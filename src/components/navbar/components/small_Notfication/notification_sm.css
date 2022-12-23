@@ -1,0 +1,118 @@
+.Notfication_sm_containar {
+  position: fixed;
+  width: 360px;
+  height: 75vh;
+  top: 84px;
+  background: #f5f5f5;
+  box-shadow: 0px 0px 40px rgba(214, 214, 214, 0.12);
+  border-radius: 8px;
+  right: 37px;
+  z-index: 1000;
+  padding: 17px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+
+.notification_title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  color: #333333;
+}
+
+.notification_clear_all {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.0025em;
+  text-decoration-line: underline;
+  color: #828282;
+}
+.notification_sm_img {
+  width: 40px;
+  height: 40px;
+}
+
+.notification_text_p {
+  width: 266px;
+  height: 37px;
+  left: 1079px;
+  top: 175px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.001em;
+  color: #333333;
+  margin-bottom: 0;
+}
+
+.notification_sm_text span {
+  color: var(--gray_3);
+}
+.minute_ago {
+  width: 41px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.004em;
+
+  /* Gray 3 */
+  color: #828282;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.line_notification {
+  background-color: #e0e0e0;
+  width: 100%;
+  margin: auto;
+  height: 1px;
+}
+
+.viewNotificationSm {
+  width: 136px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  letter-spacing: 0.0025em;
+  text-decoration-line: underline;
+  color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .Notfication_sm_containar {
+    width: 70vw;
+  }
+  .notification_text_p {
+    width: 100%;
+  }
+
+  .notification_sm_img {
+    width: 30px;
+    height: 30px;
+  }
+}@media only screen and (max-width: 365px) {
+  .minute_ago {
+    /* margin-top: 22px; */
+    margin-bottom: 4px;
+  }
+  .notification_text_p {
+    width: 100%;
+    font-size: 11px;
+  }
+}

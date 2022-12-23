@@ -1,0 +1,300 @@
+.side_components_container {
+  margin: -10px  auto 0 auto;
+  height: 100%;
+  padding-bottom: 30px;
+  padding-left: 37px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+.userListProfileimg{
+  width: 48px!important;
+  height: 48px!important;
+  border-radius: 50%!important;
+}
+.inputgroup_container {
+  position: relative;
+}
+.input_btn {
+  position: absolute;
+  width: 37px;
+  height: 36px;
+  background: #cbcaca;
+  top: 0;
+  right: 0px;
+  opacity: 0.5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.star {
+  color: rgb(237, 31, 31);
+}
+
+.phoneinput {
+  width: 135px !important;
+  height: 38px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  padding-left: 50px !important;
+  background: #FAFAFA !important;
+}
+
+.react-tel-input {
+  width: 135px !important;
+}
+
+.phone_insert_input {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+/* .phoneContainer {
+  border: 1px solid #e6e1e1;
+  border-radius: 5px;
+} */
+
+.react-tel-input .selected-flag .arrow {
+  position: relative;
+  top: 50%;
+  margin-top: -2px;
+  left: 112px !important;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent !important;
+  border-right: 5px solid transparent !important;
+  border-top: 6px solid #555 !important;
+}
+.react-tel-input .country-list .country {
+  padding: 5px 17px !important;
+}
+
+.react-tel-input .country-list .search-emoji {
+  display: none !important;
+}
+
+.userRadiobtn {
+  width: 20px !important;
+  height: 20px !important;
+  margin-right: 9px;
+}
+
+.userRadioLabel {
+  margin-bottom: 8px;
+}
+
+/* <===============Add ROLE======================> */
+.DropdownMultipleInput {
+  width: 100%;
+
+  background: #ffffff;
+  border: 0.5px solid #e0e0e0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.DropdownMultipleInput p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.004em;
+  color: #333333;
+  padding: 0px 25px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.DropdownMultipleInput p:hover {
+  background: #f2f2f2;
+  border-radius: 0px;
+}
+.activeMultiInput {
+  background: #f2f2f2;
+  border-radius: 0px;
+}
+
+.trashBackgroundContainer {
+  width: 36px;
+  height: 36px;
+  background: #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trashBackground:hover {
+  color: rgb(248, 35, 35);
+}
+.eyeBackground:hover {
+  color: rgb(248, 35, 35);
+}
+
+.black_input {
+  accent-color: #000;
+}
+.none-input{
+  accent-color: white;
+}
+
+.user_radio {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #828282;
+  border-radius: 4px;
+}
+
+.gender_item_container {
+  width: 33%;
+}
+.user_view_contents {
+  min-height: 540px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  /* margin: 0 0 0 5px; */
+}
+.user_view_contents2{
+  min-height: 440px;
+}
+.user_view_contents3{
+  min-height: 440px !important;
+}
+.user_view_image {
+  height: 440px;
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.user_view_head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 29px;
+  color: #212121;
+  margin-top: 26px;
+  margin-left: 32px;
+}
+
+.user_view_info_P {
+  margin-left: 32px;
+}
+
+.line_user_view {
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 0;
+}
+.user_view_button {
+  width: 67px;
+  height: 24px;
+  background: #219653;
+  border-radius: 4px;
+  color: white;
+  padding: 0px;
+  outline: none;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.001em;
+}
+
+.user_name_info {
+  width: 240px;
+  height: 240px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 13%);
+}
+.user_name_info_img {
+  width: 120px;
+  height: 120px;
+  margin: 10px auto;
+}
+
+.user_name_info_name {
+  width: 195px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  color: #333333;
+  text-align: center;
+  margin: 10px auto;
+}
+.user_name_info_role {
+  width: 67px;
+  height: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.0015em;
+  /* Blue 1 */
+  color: #2f80ed;
+  margin: 10px auto;
+}
+.small_tables th{
+  /* width: 15vw; */
+}
+@media only screen and (max-width: 991px) {
+  .user_name_info {
+    transform: translate(-50%, 20%);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .gender_item_container {
+    width: 100%;
+  }
+  .user_name_info {
+    transform: translate(-50%, -8%);
+  }
+  .user_view_image {
+    height: 329px;
+  }
+  .side_components_container {
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 30px;
+    padding: 0 19px;
+  }
+  .small_tables th{
+    min-width: none;
+  }
+
+  .small_tables th{
+    min-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .gender_Container {
+    margin-top: 20px;
+  }
+}
+.gender_item_container .form-check-input {
+  background-color: #161718 !important;
+  border-color: #040202 !important;
+}
+.gender_item_container .form-check-input2 {
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.form-check-input:checked{
+  background-color: #161718 !important;
+  border-color: #040202 !important;
+}
+

@@ -1,0 +1,37 @@
+.area-h{
+    height: 450px !important;
+}
+.mr-box2{
+    margin-right: 100px !important;
+}
+.date-input{
+    max-width: 140px;
+    height: 40px;
+    min-width: 60px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    padding:0px 10px;
+
+}
+.area-box{
+    display: flex;
+    justify-content: space-between;
+}
+.area-box div{
+    flex-basis: 48%;
+}
+.dis .action{
+    display: none !important;
+}
+.dis .pdf-table{
+    margin-right: 100px !important;
+}
+.dis .thed{
+    display: block !important;
+    position: absolute
+    ;
+    top: -20px;
+    /* left: 100px; */
+    margin-top: 30px !important;
+}

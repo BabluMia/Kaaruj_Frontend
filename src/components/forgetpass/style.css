@@ -1,0 +1,156 @@
+
+.left-img img{
+    position: absolute;
+    top: 15%;
+    left: 8%;
+}
+.forget_content{
+    margin: 240px 0 0 100px;
+}
+.forget_content h2 {
+    font-size: 58px;
+    font-weight: 600;
+    color: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+}
+.forget_content p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 37px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+}
+.forget_form{
+    padding-right: 90px;
+}
+.forget_form,
+.form-control{
+    font-weight: 500!important;
+    padding-left: 0!important;
+}
+.forget_form
+.form-check-input{
+    margin-top: 3px !important;
+    border: 2px solid #828282 !important;
+    border-radius: 4px !important;
+}
+.forget_form,
+.form-label{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.0015em;
+    color: #1C1C1C;
+}
+
+.next_btn,
+.verify_btn button{
+    width: 180px;
+    height: 55px;
+    background: #1C1C1C;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.try_another_way p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.0015em;
+    color: #1C1C1C;
+}
+
+
+/*For Modals*/
+.modal-content{
+    border-radius: 65px!important;
+}
+.modal-header{
+    border-bottom: transparent!important;
+}
+.modal-header .btn-close{
+    margin: 0!important;
+    position: absolute!important;
+    top: 44px!important;
+    left: 53px!important;
+    z-index: 1!important;
+}
+.btn-close{
+    opacity: 1 !important;
+}
+.verification_content{
+    padding-left: 2rem;
+}
+.verification_content h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 37px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+}
+.verification_content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 26px;
+    letter-spacing: 0.0025em;
+    color: #000000;
+}
+.verification_content p span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.0015em;
+    color: #1F7396;
+}
+@media only screen and (max-width: 768px) {
+    .left-img img{
+        position: relative;
+        top: 0;
+        left:0;
+    }
+    .forget_content{
+        margin: 0;
+    }
+    .forget_form{
+        padding: 0;
+    }
+    .forget_content h2 {
+        font-size: 30px;
+    }
+    .forget_content p {
+        font-size: 20px;
+    }
+    .verification_content h2{
+        font-size: 22px;
+    }
+    .verification_content p{
+        font-size: 18px;
+    }
+    .verification_content{
+        padding-left: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .modal-header .btn-close {
+        left: 18px!important;
+    }
+    .input_field{
+        height: 10px;
+    }
+    }

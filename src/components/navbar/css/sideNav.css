@@ -1,0 +1,362 @@
+/*===== GOOGLE FONTS =====*/
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --nav-width: 92px;
+  /* --small-nav-width: calc(var(--nav-width) - 20px); */
+  --small-nav-width: 70px;
+
+  /*===== Colores =====*/
+  --first-color: #212121;
+
+  --bg-color: #12192c;
+  --sub-color: #b6cefc;
+  --white-color: #fff;
+
+  /* --body-font: "Poppins", sans-serif; */
+  --body-font: "Inter", sans-serif;
+
+  /*===== z index =====*/
+  --z-fixed: 100;
+}
+
+.active__menu {
+  background-color: black;
+  color: white;
+}
+.active__menu {
+  background-color: var(--first-color);
+}
+
+.active__menu_nav__name {
+  color: var(--white-color) !important;
+}
+
+.active__menu_nav__icon {
+  color: var(--white-color) !important;
+}
+.active__rightArrowClass {
+  color: black !important;
+}
+.active__collapse__sublink {
+  color: black !important;
+}
+
+.active_dropdown_container {
+  background-color: black;
+}
+
+.active__down_arrow {
+  color: var(--white-color);
+}
+/*===== BASE =====*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  margin: 0;
+  /* padding: 2rem 0 0 6.75rem; */
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  transition: 0.5s;
+}
+
+h1 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.mainContainer {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+/*===== l NAV =====*/
+.l-navbar {
+  position: fixed;
+  top: 36px;
+  left: 0;
+  width: var(--nav-width);
+  height: 100vh;
+  background-color: #ffff;
+  color: white;
+  padding: 1.5rem 1.5rem 2rem;
+  transition: 0.5s;
+  z-index: var(--z-fixed);
+}
+
+/*===== NAV =====*/
+/* .nav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+} */
+.nav {
+  height: 83vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  overflow-y: scroll;
+
+  scrollbar-width: none;
+}
+.reduce_width {
+  width: 45px !important;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.nav__brand {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav__toggle {
+  font-size: 1.25rem;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+.nav__logo {
+  color: var(--white-color);
+  font-weight: 600;
+}
+
+.nav__link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: 0.75rem;
+  padding: 0.75rem;
+  color: var(--white-color);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 87%;
+}
+.logout_nav__link {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  column-gap: 0.75rem;
+  padding: 0.75rem;
+  color: var(--white-color);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+  cursor: pointer;
+  width: 87%;
+  position: absolute;
+  bottom: 31px;
+}
+
+.nav__link:hover {
+  background-color: var(--first-color);
+}
+
+.nav__link:hover .nav__name {
+  color: var(--white-color) !important;
+}
+
+.nav__link:hover .nav__icon {
+  color: var(--white-color) !important;
+}
+
+.nav__link:hover .collapse__link {
+  color: var(--white-color);
+}
+
+.nav__link:hover .down_arrow {
+  color: var(--white-color);
+}
+
+.down_arrow {
+  color: var(--dark);
+}
+.logout__nav__icon {
+  font-size: 1.25rem;
+  color: #eb5757 !important;
+}
+.logout__nav__name {
+  color: #eb5757 !important;
+}
+.nav__icon {
+  font-size: 1.25rem;
+  color: black !important;
+}
+.nav__name {
+  font-size: 16px;
+  color: black !important;
+}
+
+/*Expander menu*/
+.expander {
+  width: calc(var(--nav-width) + 8.15rem);
+}
+
+/*Add padding body*/
+/* .body-pd {
+  padding: 2rem 0 0 16rem;
+} */
+
+/* .body-pd {
+	padding: 2rem 0 0 11rem;
+} */
+.body-pd {
+  padding: 0rem 0 0 10rem;
+}
+
+/*Active links menu*/
+.active {
+  background-color: var(--first-color);
+}
+
+/*===== Nav_collapse =====*/
+.Nav_collapse {
+  grid-template-columns: 20px max-content 1fr;
+  margin-bottom: 0px;
+}
+.collapse__link {
+  justify-self: flex-end;
+  transition: 0.5s;
+}
+.collapse__menu {
+  display: none;
+  margin-left: 15px;
+}
+.collapse__sublink {
+  color: var(--gray_3);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* identical to box height, or 125% */
+  letter-spacing: 0.005em;
+}
+.collapse__sublink:hover {
+  color: var(--dark);
+}
+.hide-navbar {
+	width: 0;
+	display: none;
+}
+/*Show collapse*/
+.showCollapse {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+/*Rotate icon*/
+.rotate {
+  transform: rotate(90deg);
+}
+
+.dropdown_container {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.drop_down {
+  /* position: absolute;
+  top: 33px;
+  left: 8px; */
+}
+
+.sublink_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rightArrowClass {
+  margin-right: 20px;
+  border-radius: 0px;
+  color: var(--gray_3);
+}
+
+/* .OtherComponents {
+	background-color: var(--gray_1);
+	width: 100%;
+	height: 100%;
+	margin-left: 56px;
+} */
+
+.OtherComponents {
+  background-color: var(--gray_1);
+  width: 100%;
+  height: 100%;
+  padding-left: 62px;
+  padding-top: 81px;
+  position: relative;
+}
+.nav__list {
+  width: 200px;
+}
+
+.nav__icon :hover {
+  color: white;
+}
+
+.nav__icon {
+  font-size: 1.25rem;
+  color: white;
+}
+
+.blur_background {
+  filter: blur(4px);
+  background: #ebebeb;
+  --webkit-filter: blur(4px);
+}
+
+@media only screen and (max-width: 550px) {
+  .OtherComponents {
+    background-color: var(--gray_1);
+    width: 100%;
+    height: 100%;
+    padding-left: 65px;
+    padding-top: 81px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .l-navbar {
+    /* width: 74px; */
+    width: var(--small-nav-width);
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+  .expander {
+    width: calc(var(--small-nav-width) + 6.7rem) !important;
+  }
+
+  .nav__name {
+    font-size: 13px;
+  }
+  .nav__link {
+    width: 74%;
+  }
+  .collapse__sublink {
+    font-size: 12px;
+  }
+}

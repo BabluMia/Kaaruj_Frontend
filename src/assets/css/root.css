@@ -1,0 +1,10 @@
+:root {
+  --side_nav_width: 228px;
+  --header-height: 80px;
+
+  /* -------colors---- */
+  --gray_1: #f5f5f5;
+  --gray_3: #828282;
+  --gray_5:  #FAFAFA;;
+  --dark: #212121;
+}

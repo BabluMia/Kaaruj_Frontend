@@ -1,0 +1,249 @@
+.calenderContainer {
+  width: 40px;
+  position: absolute;
+  top: 0px;
+  right: -1px;
+  height: 48.5px;
+  background: #f2f2f2;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 0px 8px 8px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signature_css {
+  width: 116px !important;
+  height: 42px !important;
+}
+.mapTable {
+  width: 100%;
+  display: block;
+  background: #d3d3d324;;
+  margin-bottom: 30px;
+  padding-top: 12px;
+}
+
+.phoneinput ::-webkit-input-placeholder {
+  /* WebKit browsers */
+   color: transparent;
+}
+.phoneinput :-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+   color: transparent;
+}
+.phoneinput ::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+   color: transparent;
+}
+.phoneinput :-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+   color: transparent;
+}
+.phoneinput::placeholder {
+   color: transparent;
+}
+
+.innerTbody {
+  width: 100%;
+  display: block;
+}
+.invoiceInpCss {
+  width: 82px;
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.paid_input_css {
+  border: 0.5px solid green;
+}
+.createInvoiceInputContainer input {
+  height: 48px;
+  background: #fafafa;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 8px;
+}
+.createInvoiceInputContainer .phoneinput {
+  height: 48px !important;
+}
+
+.addressInput {
+  height: 64px !important;
+}
+
+.invoiceCreateSmallInputs {
+  width: 90px;
+  height: 40px;
+  left: 703px;
+  top: 1198px;
+
+  background: #fafafa;
+
+  /* Gray 5 */
+  border: 1.5px solid #e0e0e0;
+  border-radius: 4px;
+  text-align: center;
+}
+.invoiceCreateBigInputs {
+  width: 350px;
+  height: 40px;
+  /* left: 319px;
+  top: 1198px; */
+
+  background: #fafafa;
+
+  border: 1.5px solid #e0e0e0;
+  border-radius: 4px;
+}
+.border-p {
+  width: 100%;
+  height: 1px;
+  background: #f2f2f2;
+}
+.border-invoice {
+  border-left: 0.4px solid #e0e0e0;
+  border-right: 0.4px solid #e0e0e0;
+  border-bottom: 0.4px solid #e0e0e0;
+}
+
+.minWidthForInvoiceCreateTable {
+  min-width: 8% !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.doc {
+  margin: auto 0 !important;
+}
+
+@media only screen and (max-width: 1100px) {
+  .minWidthForInvoiceCreateTable {
+    min-width: 152px !important;
+  }
+}
+.cl {
+  color: #828282 !important;
+}
+.pl {
+  color: #219653 !important;
+  border-top: 1px solid #bdbdbd;
+}
+.cus .css-319lph-ValueContainer {
+  height: 41px !important;
+  border-radius: 8px !important;
+
+  /* color: #828282 !important */
+}
+.cus .css-6j8wv5-Input {
+  height: 47px !important;
+  /* margin: 5px !important; */
+}
+.cus .css-1s2u09g-control {
+  padding-bottom: 6px !important;
+}
+.barcode-main {
+  position: relative;
+  width: 120px;
+  height: 60px;
+  cursor: pointer;
+  /* background: rgb(222, 211, 211); */
+  display: grid;
+  place-items: center;
+  transition: 1s all ease;
+}
+
+.barcode-main button {
+  /* border: .5px solid rgb(184, 166, 166); */
+  outline: none;
+  border-radius: 4px;
+  padding: 2px 8px;
+  color: #828282;
+  display: none;
+  transition: 1s all ease;
+}
+.barcode-main:hover .print-btn {
+  /* color: #828282 */
+  display: block;
+  background: #000;
+  color: white;
+  transition: 1s all ease;
+}
+.barcode-main:hover {
+  /* background-color: #7e7979 !important; */
+  transition: 1s all ease;
+}
+.i1 {
+  color: white;
+  background-color: #219653;
+}
+.i2 {
+  color: red;
+  background-color: #ffcdd2;
+}
+.dis {
+  width: 100%;
+  padding: 30px;
+}
+.minw {
+  min-width: 350px;
+}
+.dis table {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+.dis .minw1 {
+  min-width: 300px;
+}
+.d4 {
+  margin-right: -2px !important;
+}
+.dis .d5 {
+  margin-right: -2px !important;
+}
+.w {
+  width: 99% !important;
+  overflow-x: auto;
+}
+.dis .extra-inv {
+  margin-top: -50px !important;
+}
+.view-inv{
+  margin-top: -45px;
+}
+.dis .dd {
+  position: absolute;
+  top: 110px;
+}
+.dis .ddd {
+  position: absolute;
+  /* left: 0; */
+  right: -850px;
+}
+.dis .w1 {
+  overflow-x: hidden !important;
+}
+.dis table,
+tr,
+td,
+th {
+  /* width: 110%; */
+  overflow-x: hidden !important;
+}
+.dis .an {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+.dis .dt {
+  display: none !important;
+}
+.none-pd{
+  display: block !important;
+}
+.bd-class div{
+  display: block !important;
+}
+.dis .top-m {
+  margin-bottom: 50px;
+}

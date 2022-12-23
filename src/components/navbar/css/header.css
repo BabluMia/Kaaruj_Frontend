@@ -1,0 +1,9 @@
+@import url('../../../assets/css/root.css');
+
+.header {
+  width: 100vw;
+  height: var(--header-height);
+  /* width: 1440px; */
+  border-radius: 0px;
+  background-color: gray;
+}

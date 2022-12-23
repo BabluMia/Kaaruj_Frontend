@@ -1,0 +1,10 @@
+.breadCrumb_custom {
+	padding: 24px 40px;
+	position: fixed !important;
+	margin-bottom: 20px;
+	background: #F5F5F5;
+	width: 100%;
+	z-index: 99;
+	top: 80px;
+	border-bottom: .5px solid rgba(224, 224, 224, 1);
+}

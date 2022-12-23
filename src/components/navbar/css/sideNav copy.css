@@ -1,0 +1,90 @@
+@import url("../../../assets/css/root.css");
+
+
+.pro-menu-item a.active {
+  color: var(--main-blue);  /* put any color you want */
+  font-weight: 500;
+}
+
+.nav-member .react-slidedown .pro-menu-item a.active {
+  color: #003642;  /* put any color you want */
+  font-weight: 500;
+}
+.sidebar {
+  height: calc(100vh - var(--header-height));
+  position: fixed;
+  position: -webkit-sticky;
+  top: calc(0 + var(--header-height));
+  z-index: 999;
+  padding: 7px 14px;
+  background: #ffffff;
+  width: 200px;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+  padding: 7px 14px;
+}
+
+.pro-sidebar {
+  color: var(--gray_3);
+  height: 100%;
+  width: 100%;
+  min-width: 100px;
+}
+
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout {
+  background: #ffffff;
+  color: var(--gray_3);
+}
+
+.pro-inner-list-item {
+  background: #ffffff;
+}
+
+.pro-inner-list-item :hover .pro-inner-item :hover {
+  background: transparent;
+}
+.pro-sidebar .pro-menu.square .pro-menu-item > .pro-inner-item > .pro-icon-wrapper {
+  background: transparent;
+}
+
+.pro-sidebar .pro-menu .pro-menu-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  color: var(--gray_3);
+  margin-bottom: 20px;
+}
+
+/* .pro-menu-item :hover {
+  background: var(--dark);
+  color: white;
+  border-radius: 4px;
+} */
+.pro-item-content {
+  font-family: "Inter", sans-serif;
+}
+
+.pro-icon svg {
+  color: #ffffff;
+}
+.pro-inner-list-item {
+  background: #ffffff !important;
+}
+.pro-inner-list-item :hover {
+  background: #ffffff;
+  color: var(--gray_3);
+}
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+  background-color: #212121;
+
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.pro-item-content:hover{
+  color: white;
+}
